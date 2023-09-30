@@ -1,9 +1,9 @@
 <?php
 
 $host = "localhost"; // nome do servidor MySQL
-$user = "id19500520_user"; // usuário do MySQL
-$pass = "Xitn^Gbvn3V9Kg<)"; // senha do MySQL
-$dbname = "id19500520_db"; // nome do banco de dados
+$user = "id21179013_masterzumbi"; // usuário do MySQL
+$pass = "Pi_12345"; // senha do MySQL
+$dbname = "id21179013_bdzumbi"; // nome do banco de dados
 
 // Conexão com o banco de dados MySQL
 $conn = mysqli_connect($host, $user, $pass, $dbname);
