@@ -1,7 +1,7 @@
 <?php
 header('Access-Control-Allow-Origin: *');
 
-$connect = new PDO("mysql:host=localhost;dbname=id21179013_bdzumbi", "id21179013_masterzumbi", "Pi_12345");
+$connect = new PDO("mysql:host=localhost;dbname=id21179013_fatec", "id21179013_admin", "Pi_12345");
 $received_data = json_decode(file_get_contents("php://input"));
 $data = array();
 if ($received_data->action == 'fetchall') {
